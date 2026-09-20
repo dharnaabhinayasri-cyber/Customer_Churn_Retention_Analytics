@@ -1,0 +1,16 @@
+Contract,tenure_group,churn_rate
+Month-to-month,0-6 Months,55.20169851380042
+Month-to-month,7-12 Months,41.996557659208264
+Month-to-month,13-24 Months,37.720488466757125
+Month-to-month,25-48 Months,32.917705735660846
+Month-to-month,49-72 Months,26.023391812865498
+One year,0-6 Months,10.256410256410255
+One year,7-12 Months,10.588235294117647
+One year,13-24 Months,8.121827411167512
+One year,25-48 Months,10.617760617760617
+One year,49-72 Months,12.933753943217665
+Two year,0-6 Months,0.0
+Two year,7-12 Months,0.0
+Two year,13-24 Months,0.0
+Two year,25-48 Months,2.18978102189781
+Two year,49-72 Months,3.32541567695962
