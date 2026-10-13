@@ -1,10 +1,16 @@
 # Customer Churn & Retention Analytics
 
-## 📌 Project Overview
-Customer churn is a critical challenge for subscription‑based businesses.  
-This project builds a **data‑driven churn analytics pipeline** that identifies risk factors, segments customers, and recommends actionable retention strategies.  
+## Project Overview
 
-The workflow integrates **SQL, Python, and Power BI** to deliver both technical analysis and executive‑level dashboards.
+This project analyses customer churn in a subscription-based business using SQL, Python, and Power BI. The goal is to understand which customer segments experience higher churn, identify patterns associated with customer attrition, and prioritize potential retention interventions.
+
+The workflow includes data cleaning and validation, SQL-based segmentation, Python exploratory data analysis, and Power BI reporting.
+
+The analysis examines churn across contract type, customer tenure, payment method, internet service, technical support, and customer value indicators.
+
+**Business objective:** Help retention teams identify vulnerable customer segments, monitor churn-related KPIs, and prioritize evidence-based retention actions.
+
+**Tools:** SQL, Python, Pandas, Matplotlib, Seaborn, Power BI.
 
 ## 🗂 Project Structure
 - **data/** → raw & cleaned datasets  
@@ -30,6 +36,18 @@ The workflow integrates **SQL, Python, and Power BI** to deliver both technical 
 4. **Power BI Dashboards**  
    - **Customer Retention Overview** → KPIs, churn by contract, tenure, payment method, internet service, tech support.  
    - **Churn Risk Analysis** → segmentation into High/Medium/Low risk, churn gap analysis, recommended retention actions.
+
+## Customer Risk Segmentation
+
+Customers were segmented into risk categories using the rules implemented in the analysis.
+
+- **High Risk:** Customers meeting the highest-risk criteria defined in the analysis.
+- **Medium Risk:** Customers meeting the intermediate-risk criteria.
+- **Low Risk:** Customers meeting the lowest-risk criteria.
+
+The final documentation should specify the actual risk indicators, score weights, thresholds, and treatment of missing values. Risk categories should be validated against observed churn outcomes.
+
+**Limitation:** These categories represent analytical risk segments, not calibrated churn probabilities, unless a validated predictive model has been developed.
 
 ## 📊 Key Insights
 - **27% overall churn rate** observed.  
